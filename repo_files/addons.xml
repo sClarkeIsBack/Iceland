@@ -1,0 +1,21 @@
+<addons>
+<addon id="plugin.video.iptviceland"
+       name="iPTV Iceland"
+       version="1.0"
+       provider-name="sClarke">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">iPTV Iceland</summary>
+    <language>en</language>
+    <description lang="en">iPTV Iceland - Bringing Only The Best In IPTV</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+</addons>
